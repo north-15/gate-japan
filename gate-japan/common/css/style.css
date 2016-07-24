@@ -113,13 +113,13 @@ h1{
 
 header {
   height: 135px;
-  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   background-color: #fff;
 }
 
 #header-wrap {
-  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   background-color: #fff;
   padding: 0 10px;
@@ -186,9 +186,14 @@ li.circle:last-child {
 
 /*wrapper・content*/
 #wrapper{
-  width:auto;
+  width: auto;
   background-image: url(../img/bg.png);
   padding-bottom: 60px;
+}
+
+#contents-wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #content{
